@@ -34,4 +34,4 @@ Why it works:
 Sorting gives order → two pointers adjust sum optimally
 
 Time: O(n²)
-Space: O(1) (excluding output)
+Space: O(1) (excluding output) end.
