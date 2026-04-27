@@ -43,3 +43,17 @@ That's exactly `r - l + 1` subarrays.
 The sliding window guarantees that at every step, `l` is the **leftmost valid start** for a window ending at `r`. Every index between `l` and `r` is also a valid start (removing a prefix can only reduce distinct count, keeping it ≤ k). So you're counting all valid subarrays ending at `r` in **O(1)** per step rather than checking each one.
 
 **Time complexity:** O(n) — each element enters and exits the window at most once.
+
+
+
+
+
+
+“If I need all elements to appear once → check
+window_size == map.size()”
+
+This is correct for problems like:
+
+“all elements are distinct”
+“no duplicates in window”
+your current problem (fixed window size k + distinct elements)
